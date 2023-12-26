@@ -1,12 +1,15 @@
 
 def summe(n:int, m:int):
-    print("n = ",n , "und m = ",m)
+    
+    ######### exemple 1 #############
+    res = 0
+    for k in range(n, m):
+        print("k = ",k)
+        res += k
+        print("res = ",res)
 
-    return (n,m)
+    return res
 
+result = summe(0,8)
 
-
-
-a = summe(2,3)
-
-print(a)
+print(result)
