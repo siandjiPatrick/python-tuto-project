@@ -1,7 +1,7 @@
 
 def summe(n:int, m:int):
     
-    ######### methode 2 #############
+    ######### Summe #############
 
     list_result = []
     for k in range(n, (m+1)+1):
