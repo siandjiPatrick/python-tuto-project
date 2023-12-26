@@ -11,7 +11,7 @@ rechnenden Aufgaben kompensiert. Es sei noch angemerkt, dass die hier veröffent
 Aufgaben aus mehreren Klausuren stammen, weshalb Sie vermutlich mehr als 90 min be-
 nötigen, um alle Aufgaben zu lösen.
 
-## Funktionen
+## Aufgabe1-Funktionen
 
 Gegeben ist die folgende Summenformel:
 
@@ -28,7 +28,7 @@ Werten aufgerufen und das Funktionsergebnis schließlich mit print ausgegeben we
 
 Hinweis: Überlegen Sie sich, mit welchen Datentypen hier jeweils gearbeitet werden muss.
  
-## Listen
+## Aufgabe2-Listen
 
 Vorgegeben ist das nachfolgend dargestellte Hauptprogramm:
 
@@ -52,8 +52,9 @@ trag "value" und der Ergebnisliste "tail".
 
 2. Modifizieren Sie das vorgegebene Hauptprogramm so, dass die von der Funktion "cut" 
 generierten Teilergebnisse "head", "value" und "tail" jeweils in einer separaten Zeile 
-ausgegeben werden. 
-Tupel
+ausgegeben werden.
+
+## Aufgabe3-Tupel
 Gegeben ist das nachfolgend dargestellte Python Hauptprogramm:
 
 ```python
@@ -69,7 +70,7 @@ Ergänzen Sie die Funktion h(a, b, c). Die Funktion soll ein Tupel mit zwei Wert
 geben. Der erste Wert entspricht der Summe der als Parameter übergebenen Werte in 'a', 
 'b' und 'c', der zweite Wert dem Produkt der selben Parameter.
 
-## Dictionaries
+## Aufgabe4-Dictionaries
 
 Gegeben ist das folgende Dictionary:
 
@@ -100,7 +101,7 @@ Schreiben Sie ein Python-Programm, das den Benutzer zunächst um die Eingabe ein
 N bittet. Anschließend sollen alle Zahlen von 0 bis N in eine Datei ergebnis.txt ausgegeben 
 werden, und zwar so, dass in jeder Zeile der Datei immer genau eine Zahl steht.
 
-## Exceptions
+## Aufgabe5-Exceptions
 
 Gegeben ist die nachfolgende unvollständige Funktionsdefinition in Python:
 
@@ -141,7 +142,7 @@ der Abfrage 'Zahl: '
 
 Falls man eine 1 eingibt, wird keine Exception ausgelöst.
 
-## Klassen und Objekte
+## Aufgabe6-Klassen und Objekte
 
 Gegeben ist das nachfolgend dargestellte Klassendiagramm:
 
@@ -176,7 +177,7 @@ den Parametern s = 'World' und newln = True. Anschließend soll nacheinander fü
 Objekte zunächst die Methode prtB aufgerufen werden und anschließend für beide Objekte 
 die Methode prtA.
 
-## Comprehensions
+## Aufgabe7-Comprehensions
 Gegeben ist das nachfolgende Python-Programm mit einem Dictionary "strtab", in dem so-
 wohl die Schlüssel (key) als auch die Werte (value) in Form von Strings codiert sind. 
 
@@ -204,7 +205,7 @@ einer Exception soll eine kurze Fehlermeldung auf dem Bildschirm ausgegeben werd
 (Hinweis: Um testweise eine Exception zu provozieren, können Sie den ersten Schlüssel 
 in "strtab" durch '-132a' ersetzen).
 
-## Funktionale Programmierung
+## Aufgabe8-Funktionale Programmierung
 
 Gegeben ist das folgende Python Programm:
 
