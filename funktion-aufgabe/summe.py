@@ -1,15 +1,29 @@
 
 def summe(n:int, m:int):
     
-    ######### exemple 1 #############
-    res = 0
-    for k in range(n, m):
-        print("k = ",k)
-        res += k
-        print("res = ",res)
+    ######### methode 2 #############
 
-    return res
+    list_result = []
+    for k in range(n, (m+1)+1):
 
-result = summe(0,8)
+        res = 2**(2*k)
+        print("pour k = ", k , "--> 2^2*",k, "= ",res)
 
-print(result)
+        # Fügen wir das Ergebnis in die Liste ein
+        list_result.append(res)
+        
+    return list_result
+
+############### hauptprogramm ##################
+
+print("\n!!! n und m müssen ganze zahl sein ")
+
+# Benutzer Interaktion
+n = int(input("geben Sie n ein -->  "))  # 
+m = int(input("geben Sie m ein -->  "))
+
+result = summe(n,m)
+
+summe_result = sum(result)
+print("Die Summe ergibt : ", summe_result)
+
