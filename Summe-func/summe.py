@@ -6,18 +6,16 @@ def summe(n:int, m:int):
     list_result = []
     for k in range(n, (m+1)+1):
 
-        res = 2**(2*k)
-        print("fuer k = ", k , "--> 2^2*",k, "= ",res)
+        res = (2/3)**(2*k)
+        print("fuer k = ", k , "--> (2/3)^2*",k, "= ",res)
 
         # Fügen wir das Ergebnis in die Liste ein
         list_result.append(res)
         
     return list_result
 
+
 ############### hauptprogramm ##################
-
-
-
 
 error_input = True
 while error_input:
