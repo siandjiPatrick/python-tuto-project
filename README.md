@@ -15,6 +15,9 @@ nötigen, um alle Aufgaben zu lösen.
 
 Gegeben ist die folgende Summenformel:
 
+![Alt text](bilders/summe.jpg "a title")
+
+
 1. Schreiben Sie in Python zunächst eine Funktion `f (N, M)` in der die Summe berechnet 
 wird. Das Ergebnis soll von der Funktion an das aufrufende Programm zurückgegeben 
 werden (aber noch nicht von der Funktion auf dem Bildschirm ausgegeben werden).
@@ -141,6 +144,8 @@ Falls man eine 1 eingibt, wird keine Exception ausgelöst.
 ## Klassen und Objekte
 
 Gegeben ist das nachfolgend dargestellte Klassendiagramm:
+
+![Alt text](bilders/klasse.jpg "a title")
 
 1. Klasse A soll entsprechend der nachfolgenden Beschreibung programmiert werden:
 l: Das private Klassenattribut soll mit einer leeren Liste initialisiert werden.
