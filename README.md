@@ -15,7 +15,7 @@ nötigen, um alle Aufgaben zu lösen.
 
 Gegeben ist die folgende Summenformel:
 
-1. Schreiben Sie in Python zunächst eine Funktion f (N, M) in der die Summe berechnet 
+1. Schreiben Sie in Python zunächst eine Funktion `f (N, M)` in der die Summe berechnet 
 wird. Das Ergebnis soll von der Funktion an das aufrufende Programm zurückgegeben 
 werden (aber noch nicht von der Funktion auf dem Bildschirm ausgegeben werden).
 
@@ -29,10 +29,12 @@ Hinweis: Überlegen Sie sich, mit welchen Datentypen hier jeweils gearbeitet wer
 
 Vorgegeben ist das nachfolgend dargestellte Hauptprogramm:
 
-`lst = [1, 24, -32, 0, -13, 9733, -8, 0, 251, 22, 15423, -974563, 123, 310, -145, -793161, 
+```python
+lst = [1, 24, -32, 0, -13, 9733, -8, 0, 251, 22, 15423, -974563, 123, 310, -145, -793161, 
 1154, 2843, 232, -1]
 result = cut (lst)
-print (result)`
+print (result)
+```
 
 Erweitern bzw. modifizieren Sie dieses Programm wie folgt:
 
@@ -51,12 +53,14 @@ ausgegeben werden.
 Tupel
 Gegeben ist das nachfolgend dargestellte Python Hauptprogramm:
 
-`a = int (input ('a = '))
+```python
+a = int (input ('a = '))
 
 b = int (input ('b = '))
 c = int (input ('c = '))
 result = h (a, b, c)
-print (result)`
+print (result)
+```
 
 Ergänzen Sie die Funktion h(a, b, c). Die Funktion soll ein Tupel mit zwei Werten zurück-
 geben. Der erste Wert entspricht der Summe der als Parameter übergebenen Werte in 'a', 
@@ -66,9 +70,11 @@ geben. Der erste Wert entspricht der Summe der als Parameter übergebenen Werte 
 
 Gegeben ist das folgende Dictionary:
 
-`d = {'der': 'Artikel', 'die': 'Artikel', 'das': 'Artikel', 'gehen': 'Verb', 'laufen': 'Verb', 
+```python
+d = {'der': 'Artikel', 'die': 'Artikel', 'das': 'Artikel', 'gehen': 'Verb', 'laufen': 'Verb', 
  'schwimmen': 'Verb', 'Hund': 'Substantiv', 'Uni': 'Substantiv', 'Schüler': 'Substantiv', 
- 'Klausur': 'Substantiv', 'schön': 'Attribut', 'hässlich': 'Attribut'}`
+ 'Klausur': 'Substantiv', 'schön': 'Attribut', 'hässlich': 'Attribut'}
+```
  
 Führen Sie nacheinander auf diesem Dictionary folgende Aktionen aus:
 
@@ -95,7 +101,8 @@ werden, und zwar so, dass in jeder Zeile der Datei immer genau eine Zahl steht.
 
 Gegeben ist die nachfolgende unvollständige Funktionsdefinition in Python:
 
-`def f ():
+```python
+def f ():
 z = int (input ('Zahl: ')) # Hier wird bei einer Falscheingabe ein ValueError ausgelöst
 txt = input ('Text eingeben: ')
 lst = [0, 1, 2]
@@ -104,7 +111,8 @@ lst[z] = 1/z**2 # Hier wird ein ZeroDivisionError (z=0) oder ...
 # ... ein IndexError (z=3) ausgelöst!
 else:
 ?
-return lst`
+return lst
+```
 
 1. Vervollständigen Sie die Funktion an der mit dem Fragezeichen gekennzeichneten 
 Stelle so, dass dort eine Exception vom Typ RuntimeError ausgelöst wird. Als Argument 
@@ -136,7 +144,7 @@ Gegeben ist das nachfolgend dargestellte Klassendiagramm:
 
 1. Klasse A soll entsprechend der nachfolgenden Beschreibung programmiert werden:
 l: Das private Klassenattribut soll mit einer leeren Liste initialisiert werden.
-__init__ (): Der Konstruktor soll so realisiert werden, dass darin die Objektreferenz 'self' 
+`__init__ ()`: Der Konstruktor soll so realisiert werden, dass darin die Objektreferenz 'self' 
 an das Ende der Liste 'l' angehängt wird.
 prtA (): Diese Methode soll für jeden Eintrag in der Liste 'l' die Methode 'prtB' (siehe unten) 
 aufrufen.
@@ -147,7 +155,7 @@ Parameters initialisiert werden.
 newln: Das private Attribut soll eine boolesche Größe speichern. Es soll im Konstruktor ent-
 sprechend des Parameters initialisiert werden.
 
-__init__ (s, newln): Der Konstruktor soll den Konstruktor der Basisklasse aufrufen. An-
+`__init__ (s, newln)': Der Konstruktor soll den Konstruktor der Basisklasse aufrufen. An-
 schließend sollen die übergebenen Parameter in den entsprechenden privaten Attributen 
 gespeichert werden.
 prtB (): Die Methode soll den im privaten Attribut 's' gespeicherten String ausgeben. Falls 
@@ -158,7 +166,7 @@ wenn 'newln' gleich False ist).
 
 2. Hauptprogramm ist wie folgt zu implementieren:
 Ergänzen Sie ein Hauptprogramm, in dem ein erstes Objekt zur Klasse B mit den Parame-
-tern s = 'Hello ' und newln = False erzeugt wird und ein zweites Objekt zur Klasse B mit 
+tern `s = 'Hello '` und newln = False erzeugt wird und ein zweites Objekt zur Klasse B mit 
 den Parametern s = 'World' und newln = True. Anschließend soll nacheinander für beide 
 Objekte zunächst die Methode prtB aufgerufen werden und anschließend für beide Objekte 
 die Methode prtA.
@@ -167,10 +175,12 @@ die Methode prtA.
 Gegeben ist das nachfolgende Python-Programm mit einem Dictionary "strtab", in dem so-
 wohl die Schlüssel (key) als auch die Werte (value) in Form von Strings codiert sind. 
 
-`strtab = { '-132': '24', '33': '-7', '-263': '-8821', '2': '943', '6623': '803', '1725': '5763', 
+```python
+strtab = { '-132': '24', '33': '-7', '-263': '-8821', '2': '943', '6623': '803', '1725': '5763', 
 '5382': '663', '532': '2553', '744': '54212' }
 result = ?
-print (result)`
+print (result)
+```
 
 Modifizieren Sie dieses Programm in folgenden Teilschritten:
 
@@ -193,13 +203,14 @@ in "strtab" durch '-132a' ersetzen).
 
 Gegeben ist das folgende Python Programm:
 
-`def filter (lst, fkt):
+```python
+def filter (lst, fkt):
  for item in lst:
  if fkt (item):
  print (item)
 lst = [12, -3, 5, 7, 3, 19, 22, -4, 5, -2, 7, -12, 11, 5, 2, 4, 3, 19, -5, -16]
-filter (lst, ?)`
-
+filter (lst, ?)
+```
 Ergänzen Sie eine zweite Funktionsdefinition so, dass der Aufruf der ersten Funktion 'filter' 
 im vorgegebenen Programm dazu führt, dass nur die negativen Einträge der Liste auf dem
 
